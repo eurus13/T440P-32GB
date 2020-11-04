@@ -12,7 +12,7 @@ Work on getting the Thinkpad T440P to boot with 32gb ram (16gb x 2)
 
 * HSW MRC Addressing Decoding functions were missing bitshift[1<<28] and row/col[11][4] info for 8Gbit,16GB modules
   
- * CAP REG(Capabilities Register) lists HSW col_11 support, but it is not enabled by commented out "SUPPORT" flag. 
+ * CAP REG(Capabilities Register) lists HSW col_11 support, but it is not enabled [commented out "SUPPORT" flag] 
   
    ** CAP REG also has setting that allows 16GB modules (it was set by default, but may not be on other machines"
   
