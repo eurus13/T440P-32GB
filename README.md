@@ -24,10 +24,10 @@ NOTES:
  
 
   Please Note(Gigbits vs Gigbytes)
-  | Type | Config |  Device-Size |  Row  | Col  | Ranks |  Rank-Size |  Module-Size |    
+  | TYPE| CONFIG |  DRAM WIDTH |  ROW  | COL  | RANKS |  RANK SIZE |  MODULE SIZE |    
   | ---  | ---    |     ---      |  ---  | ---  |  ---  |    ---     |    ---       |
   | DDR3 |  x8    |   4 Gbit     |   16  |  10  |   2   |   4 GB     |     8 GB     |
-|**DDR3L** |  **x8**    |   **8 Gbit**     |   **16**  |  **11 ** |   **2**   |   **8 GB**     |      **16 GB** |
+|**DDR3L** |  **x8**    |   **8 Gbit**     |   **16**  |  **11** |   **2**   |   **8 GB**     |      **16 GB** |
 
 ^Data gathereed from Micron/Corsair Specsheet(mm_ktf16c2gx64hz))  
               (stacked 4Gbit)
