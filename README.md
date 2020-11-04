@@ -3,7 +3,7 @@ Work on getting the Thinkpad T440P to boot with 32gb ram (16gb x 2)
 
 
 
-NOTES:
+##NOTES:
 
 * Haswell(HSW) mobile chips(CPU and Cache) are capable of addressing ore than 32GB [1]
 
@@ -34,10 +34,10 @@ NOTES:
 
 
 
-Action:
+##Action:
 I have changed the files decompiled assembly files, but have put them back into assembly or binary.
 
-P.S. the docs folder is loaded with gathered info that makes reference to obscure codes and settings related to the MRC and MC (Memory 
+P.S. the docs folder is loaded with gathered info that makes reference to obscure codes and settings related to the MRC and MC 
 
 [1]
 [Intel Specsheet](https://ark.intel.com/content/www/us/en/ark/products/75117/intel-core-i7-4700mq-processor-6m-cache-up-to-3-40-ghz.html)
