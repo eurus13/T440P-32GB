@@ -2,21 +2,21 @@
 
 Work on getting the Thinkpad T440P to boot with 32gb ram (16gb x 2) 
 
-
+<sup></sup>
 
 ## NOTES:
 
-* Haswell(HSW) mobile chips(CPU and Cache) are capable of addressing ore than 32GB [1]
+* Haswell(HSW) mobile chips(CPU and Cache) are capable of addressing ore than 32GB<sup>[1]</sup>
 
-* QM87 chipset also capable of addressing more than 16GB[2][3]
+* QM87 chipset also capable of addressing more than 16GB<sup>[2]</sup><sup>[3]</sup>
 
-* HSW MRC Addressing Decoding functions were missing bitshift[1<<28] and row/col[11][4] info for 8Gbit,16GB modules
+* HSW MRC Addressing Decoding functions were missing bitshift[1<<28] and row/col[11]<sup>[4]</sup> info for 8Gbit,16GB modules
   
  * CAP REG(Capabilities Register) lists HSW col_11 support, but it is not enabled [commented out "SUPPORT" flag] 
   
    ** CAP REG also has setting that allows 16GB modules (it was set by default, but may not be on other machines"
   
-   ** CAP REG has ability to enable DDR3L[5] voltage at 1.3V rather than DDR3 1.5V,( did not enable, just noting)
+   ** CAP REG has ability to enable DDR3L<sup>[5]</sup> voltage at 1.3V rather than DDR3 1.5V,( did not enable, just noting)
   
    ** CAP Memory Controller (MC) is set at 32bit offset limit for physical addresses(bit setting - 0xe4), 
         there is note of 64bit capabilites(bit setting - 0xf4); seemingly as it stands anything above 
