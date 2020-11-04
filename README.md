@@ -13,15 +13,15 @@ NOTES:
   
  *CAP REG(Capabilities Register) lists HSW col_11 support, but it is not enabled by commented out "SUPPORT" flag. 
   
-    **CAP REG also has setting that allows 16GB modules (it was set by default, but may not be on other machines"
+   **CAP REG also has setting that allows 16GB modules (it was set by default, but may not be on other machines"
   
-    **CAP REG has ability to enable DDR3L[5] voltage at 1.3V rather than DDR3 1.5V,( did not enable, just noting)
+   **CAP REG has ability to enable DDR3L[5] voltage at 1.3V rather than DDR3 1.5V,( did not enable, just noting)
   
-    **CAP Memory Controller (MC) is set at 32bit offset limit for physical addresses(bit setting - 0xe4), 
+   **CAP Memory Controller (MC) is set at 32bit offset limit for physical addresses(bit setting - 0xe4), 
         there is note of 64bit capabilites(bit setting - 0xf4);  seemingly as it stands anything above 4GB( 8,16, or 32GB) would mapped pages and 
         not physically allocated and addressed memory. 
 
-. 
+ 
 
   Please Note(Gigbits vs Gigbytes)
   Type  Config  Device-Size   Row  Col   Ranks  Rank-Size  Module-Size    
