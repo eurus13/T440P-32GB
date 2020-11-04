@@ -27,10 +27,12 @@ NOTES:
   Type  Config  Device-Size   Row  Col   Ranks  Rank-Size  Module-Size    
   DDR3   x8      4 Gbit     16    10     2     4 GB       8 GB  |
    
-* DDR3L  x8      8 Gbit     16    11     2     8 GB       16 GB |  Data gathereed from Micron/Corsair Specsheet(mm_ktf16c2gx64hz))  
+ **DDR3L  x8      8 Gbit     16    11     2     8 GB       16 GB ** Data gathereed from Micron/Corsair Specsheet(mm_ktf16c2gx64hz))  
               (stacked 4Gbit)
 
 
+
+Action:
 I have changed the files decompiled assembly files, but have put them back into assembly or binary.
 
 P.S. the docs folder is loaded with gathered info that makes reference to obscure codes and settings related to the MRC and MC (Memory 
