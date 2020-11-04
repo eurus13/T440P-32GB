@@ -1,9 +1,10 @@
 # T440P-32GB
+
 Work on getting the Thinkpad T440P to boot with 32gb ram (16gb x 2) 
 
 
 
-##NOTES:
+## NOTES:
 
 * Haswell(HSW) mobile chips(CPU and Cache) are capable of addressing ore than 32GB [1]
 
@@ -18,8 +19,8 @@ Work on getting the Thinkpad T440P to boot with 32gb ram (16gb x 2)
    ** CAP REG has ability to enable DDR3L[5] voltage at 1.3V rather than DDR3 1.5V,( did not enable, just noting)
   
    ** CAP Memory Controller (MC) is set at 32bit offset limit for physical addresses(bit setting - 0xe4), 
-        there is note of 64bit capabilites(bit setting - 0xf4);  seemingly as it stands anything above 4GB( 8,16, or 32GB) would mapped pages and 
-        not physically allocated and addressed memory. 
+        there is note of 64bit capabilites(bit setting - 0xf4); seemingly as it stands anything above 
+        4GB( 8,16, or 32GB) would mapped pages and not physically allocated and addressed memory. 
 
  
 
@@ -34,8 +35,9 @@ Work on getting the Thinkpad T440P to boot with 32gb ram (16gb x 2)
 
 
 
-##Action:
-I have changed the files decompiled assembly files, but have put them back into assembly or binary.
+## Action:
+
+I have changed the col addressing decompiled assembly files, but have not put them back into assembly or binary.
 
 P.S. the docs folder is loaded with gathered info that makes reference to obscure codes and settings related to the MRC and MC 
 
